@@ -4,6 +4,25 @@ import React from 'react';
 
 const Character = props => {
     return (
+        <div className="characterCard">
+            <h1>{props.character.name}</h1>
+       
+        <p>{props.character.birth_year}
+
+        </p>
+
+        <p>{props.character.height}
+
+        </p>
+
+        <p>{props.character.mass}
+
+
+        </p>
+
+        </div>
+
+
 
 
 
