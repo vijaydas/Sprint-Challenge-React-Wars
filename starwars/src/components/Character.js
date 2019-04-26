@@ -1,4 +1,5 @@
 import React from 'react';
+import "./StarWars.css";
 
 // The character function accepts props coming from the CharacterList tp build the character view
 
@@ -7,15 +8,15 @@ const Character = props => {
         <div className="characterCard">
             <h1>{props.character.name}</h1>
        
-        <p>{props.character.birth_year}
+        <p>BIRTH YEAR: {props.character.birth_year}
 
         </p>
 
-        <p>{props.character.height}
+        <p>HEIGHT: {props.character.height}
 
         </p>
 
-        <p>{props.character.mass}
+        <p>MASS: {props.character.mass}
 
 
         </p>

@@ -1,0 +1,17 @@
+.characterCard {
+    margin: 25px;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    background-color: skyblue;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 12px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
